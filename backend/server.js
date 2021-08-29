@@ -7,6 +7,7 @@ import orderRouter from '../backend/models/routers/orderRouter.js';
 import dotenv from 'dotenv';
 import path from 'path';
 import uploadRouter from './models/routers/uploadRouter.js';
+const __dirname = path.resolve();
 //encripting the id, name, email into the token with json.
 dotenv.config();
 const app = express();
